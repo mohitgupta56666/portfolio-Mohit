@@ -1,7 +1,7 @@
 /*******************************************
 Statement - Print Hello World
-Programmer - Vineet Choudhary
-Written For - http://developerinsider.in
+Programmer - Mohit
+Written For - learning purpose
 ********************************************/
 
 #include <stdio.h>
