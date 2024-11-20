@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-MohitGupta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Sevices</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark menuicon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menuicon" onclick="openmenu()"></i>
+            </nav>
+            <div class="text-header">
+                <p>Computer Science Student</p>
+                <h1>Hello, I'm <span>Mohit</span> <br>Gupta from Jaipur.</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------About----------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="userImage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I’m a computer science student with a passion for web development, specializing in front-end technologies and responsive design. I enjoy building user-friendly, performant, and accessible web applications and am constantly exploring new ways to enhance user experiences. My current focus is on full-stack development with the MERN stack.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')" >Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')" >Experience</div>
+                        <div class="tab-links" onclick="opentab('education')" >Education</div> 
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX </span> <br> Web and App develolment</li>
+                            <li><span>Web Development </span> <br> Web App develolment</li>
+                            <li><span>App Development </span> <br> android /iOS develolment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span> <br> Fresher</li>
+                            <li><span>2022-2026 </span> <br> College Student</li>
+                            <li><span>2020-2022 </span> <br> secondary and Senior Secondary Education</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026 </span> <br> Bachelors of Technology in Computer Science</li>
+                            <li><span>2022 </span> <br> Senior Secondary in Maths Science</li>
+                            <li><span>2020</span> <br> Secondary Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------services------------------------  -->
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web designer</h2>
+                    <p>A web designer creates visually appealing and user-friendly website layouts, focusing on design, usability, and overall user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX designer</h2>
+                    <p>A web designer creates visually appealing and user-friendly website layouts, focusing on design, usability, and overall user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developer</h2>
+                    <p>A web designer creates visually appealing and user-friendly website layouts, focusing on design, usability, and overall user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfolio------------------  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app connects users for sharing content, messaging, networking, and exploring interests through posts, stories, and interactive features.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app lets users stream, download, and organize songs, create playlists, discover new artists, and enjoy personalized listening experiences.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work3">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>A shopping app offers users a seamless experience to browse, purchase, and track orders, featuring personalized recommendations and secure payment options.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more...</a>
+    </div>
+
+    <!-- -------------------------Contact------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> mohitgu56666@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 0000000000</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" class="btn cvdownload">Download CV</a>
+                </div>
+                <div class="contact-right" >
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="text" name="Email" placeholder="enter your email">
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="type your message"></textarea>
+                        <button type="submit" class="btn cvdownload" >Submit</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>This is with copyright @Portfolio-MohitGupta.</p>
+            <p>Made with <i class="fa-solid fa-heart"></i> in INDIA</p>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
